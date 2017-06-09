@@ -1,0 +1,260 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0 0;
+	background-image: url("../Images/concrete-texture.png");
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	height: 113px;
+	background: white;
+	border-bottom: 2px solid #cccccc;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto 0 auto;
+	padding: 10px;
+}
+
+ul {
+	/*position: relative;
+	right: 265px;
+	top: 20px;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+li {
+	margin-top: 15px;
+	font-size: 20px;
+    float: right;
+
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: bolder;
+	clear: both;
+	color: white;
+	float: left;
+	background: #4aaaa5;
+	height: 100px;
+	width: 300px;
+	text-align: center;
+	padding-top: 35px
+}
+
+
+#division {
+	border: 1px solid #dddddd;
+	position: relative;
+	top: 20px;
+	height: 650px;
+	width: 650px;
+	background: #ffffff;
+}
+
+h2 {
+	font-size: 30px;
+	color: #4aaaa5;
+	font-family: 'Georgia',Times, Times, serif;
+	border-width: 100px;
+	border-bottom: 2px solid #eee;
+	text-align: center;
+	padding: 10px;
+	background: white;
+}
+
+h3 {
+	text-align: center;
+	padding-top: 15px;
+	height: 60px;
+	width: 250px;
+	color: white;
+	background: #4aaaa5;
+
+}
+
+#imgprofile {
+	float: left;
+	width: 250px
+	height: 200px;
+	margin: 5px 5px 5px 10px;
+	padding: 5px;
+}
+
+p {
+	color: #666666;
+	font-size: 24px;
+	text-align: center;
+	padding: 20px;
+}
+
+aside {
+	position: relative;
+	padding: 10p;
+	top: -630px;
+	left: 0px;
+	float: right;
+	width: 270px;
+	height: 180px;
+	background: white;
+	border: 1px solid #dddddd;
+}
+
+.logopic {
+	position: relative;
+	top: 20px;
+	left: 22px;
+	margin: 5px;
+	height: 60px;
+	width: 60px;
+}
+
+
+footer {
+	clear: both;
+	width: 100%;
+	border-top: 10px solid #4aaaa5;
+	clear: both;
+	padding:20px;
+	background: #666666;
+}
+
+label {
+	font-size: 20px;
+	color: #666666;
+	margin: 10px 33px;
+}
+
+input[type=text] {
+	width: 580px;
+	padding: 10px 15px;
+	margin: 10px 33px;
+}
+
+textarea {
+	width: 580px;
+	height: 200px;
+	padding: 10px 15px;
+	margin: 10px 33px;
+
+}
+
+input[type=submit] {
+	margin: 10px 33px;
+	width: 150px;
+	height: 50px;
+	background: #4aaaa5;
+	color: white;
+}
+
+#container1 {
+	height: 200px;
+	width: 250px;
+	position: relative;
+	left: 50px;
+	background-color: blue;
+}
+
+#image1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#text1 {
+	z-index: 10;
+	position: absolute;
+	font-size: 24px;
+	font-weight: bold;
+	left: 0;
+	bottom: 5px;
+}
+
+#container2 {
+	height: 200px;
+	width: 250px;
+	position: relative;
+	left: 350px;
+	top: -200px;
+	background-color: blue;
+}
+
+#image2 {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#text2 {
+	z-index: 10;
+	position: absolute;
+	font-size: 24px;
+	font-weight: bold;
+	left: 0;
+	bottom: 5px;
+}
+
+#container3 {
+	height: 200px;
+	width: 250px;
+	position: relative;
+	left: 50px;
+	top: -100px;
+	background-color: blue;
+}
+
+#image3 {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#text3 {
+	z-index: 10;
+	position: absolute;
+	font-size: 24px;
+	font-weight: bold;
+	left: 0;
+	bottom: 5px;
+}
+
+#container4 {
+	height: 200px;
+	width: 250px;
+	position: relative;
+	left: 350px;
+	top: -300px;
+	background-color: blue;
+}
+
+#image4 {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#text4 {
+	z-index: 10;
+	position: absolute;
+	font-size: 24px;
+	font-weight: bold;
+	left: 0;
+	bottom: 5px;
+}
