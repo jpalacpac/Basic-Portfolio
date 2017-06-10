@@ -70,6 +70,7 @@ h1 {
 }
 
 h2 {
+	margin: 0 10px 0 10px;
 	font-size: 30px;
 	color: #4aaaa5;
 	font-family: 'Georgia',Times, Times, serif;
@@ -103,6 +104,11 @@ p {
 	font-size: 24px;
 	text-align: center;
 	padding: 20px;
+}
+
+.footer{
+	font-size: 18px;
+	color: white;
 }
 
 aside {
